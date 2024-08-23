@@ -2,3 +2,8 @@
 *.exe
 *.pdb
 target
+
+# .NET Core
+bin/
+obj/
+out/
