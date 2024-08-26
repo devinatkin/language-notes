@@ -7,3 +7,69 @@ target
 bin/
 obj/
 out/
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Temporary files
+*.log
+*.pid
+*.swo
+*.swp
+
+# Thumbnails and temp files
+.@__thumb/
+Thumbs.db
+
+# Visual Studio specific folders
+.vs/
+_ReSharper.Caches/
+
+# Temporary files
+*.log
+*.pid
+*.swo
+*.swp
+*.pfx
+*.db
+
+# Rider specific folders
+.idea/
+
+# IIS generated files
+_IISExpress/
+.efmlog/
+logs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Backup files
+*.bak
+*.orig
+*.tmp
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Debug and Release Folders
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# DotNet core
+project.lock.json
+project.fragment.lock.json
+artifacts/
