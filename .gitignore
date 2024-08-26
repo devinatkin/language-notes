@@ -73,3 +73,55 @@ x86/
 project.lock.json
 project.fragment.lock.json
 artifacts/
+
+# Compiled Java class files
+*.class
+
+# Log files
+*.log
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Generated Sources
+generated/
+
+# Maven specific files and folders
+.mvn/
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle specific files and folders
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Eclipse specific files
+.classpath
+.project
+.settings/
+target/
+
+# IntelliJ IDEA specific files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans specific files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# BlueJ specific files
+*.ctxt
+.bluej/
