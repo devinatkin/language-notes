@@ -125,3 +125,27 @@ nbdist/
 # BlueJ specific files
 *.ctxt
 .bluej/
+
+# Arduino
+# Arduino build files
+*.bin
+*.elf
+*.hex
+*.eep
+
+# Arduino sketchbook folders
+**/build/
+**/build.options.json
+**/sketchbook/
+**/libraries/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Mac OS X specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
