@@ -56,6 +56,13 @@ sub is_prime{
 Perl is interesting as the function passing is handled in a very stack kind of way. 
 It means that more complicated functions will rely on clear documentation to actually let the user know what is going on.
 
+## Requiements
+The cpanfile is the perl equivalent to the requirements.txt file in python.
+
+```
+cpanm --installdeps .
+```
+The Cpan file can be installed using this command
 ## Chop and Chomp
 
 Two Perl Built in functions for string manipulation. 
