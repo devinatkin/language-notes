@@ -1,0 +1,17 @@
+`include "constants.vams"
+`include "disciplines.vams"
+
+module rc_filter(in, out);
+  inout in, out;
+  electrical in, out;
+
+  parameter real R = 1k from (0:inf);  // default 1kΩ
+  parameter real C = 1n from (0:inf);  // default 1nF
+
+  analog begin
+    // Resistor between in and out
+    V(in, out) <+ I(in, out) * R;
+    // Capacitor from out to ground
+    I(out) <+ C * ddt(V(out));
+  end
+endmodule
