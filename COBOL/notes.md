@@ -1,5 +1,10 @@
 # COBOL Notes
 ```
+sudo apt install gnucobol
+```
+To install the required compiler on Ubuntu you want to install gnucobol to get the cobc command. 
+
+```
 cobc -x -o hello hello.cob
 ./hello
 ```
@@ -30,3 +35,11 @@ Functions are defined as additional sections called paragraphs.
 
 EXIT leaves the function early. 
 Variables are treated essentially like registers. 
+
+## Taking an Input
+
+```
+          display "Enter a first number:"
+           accept first-number.
+```
+With the first-number variable defined in the working storage section this will take the needed input and store it in the variable. 
