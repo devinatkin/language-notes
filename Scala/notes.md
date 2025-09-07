@@ -1,5 +1,14 @@
 # Scala Notes
 
+## Install the Tools 
+```
+sudo apt install openjdk-17-jdk   
+sudo apt install scala
+```
+First obviously one needs to install the tools
+
+## Hello World
+
 ```
 scalac Hello.scala
 ```
